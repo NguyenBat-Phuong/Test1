@@ -1,6 +1,11 @@
 namespace ConsoleApp1;
 
-public class test
+public class Test
 {
-        int result;
+    public Test()
+    {
+        string number = "58";
+        int num= Int32.Parse(number);
+        Console.WriteLine(num);
+    }
 }
